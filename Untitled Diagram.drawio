@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T06:47:43.820Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="H1lLpwOramo0qiBdAhM3" version="17.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-24T06:57:19.535Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="92E-2Tu1Xya779axZi7W" version="17.1.5" type="github" pages="3">
   <diagram name="CalculationResult" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,7 +97,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b1gJzdANu-E7J6VrjbRQ" name="CalculationResultOverallMSCI">
-    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="r901hIFAxSDSb88DwtGd-0" />
         <mxCell id="r901hIFAxSDSb88DwtGd-1" parent="r901hIFAxSDSb88DwtGd-0" />
@@ -307,6 +307,17 @@
         </mxCell>
         <mxCell id="czCsKCkK0Fto5rWjI4CE-26" value="+ TrendWeight: Decimal?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="r901hIFAxSDSb88DwtGd-1">
           <mxGeometry x="1286" y="865" width="250" height="22" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GBvc2MoHkLdrHCfaQdsB" name="ThemeType">
+    <mxGraphModel dx="1038" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="cyWVuHRDN49BQznvrbrS-0" />
+        <mxCell id="cyWVuHRDN49BQznvrbrS-1" parent="cyWVuHRDN49BQznvrbrS-0" />
+        <mxCell id="cyWVuHRDN49BQznvrbrS-2" value="public enum ThemeType&#xa;  {&#xa;    [EnumMember(Value = &quot;ClimateChange&quot;)] ClimateChange,&#xa;    [EnumMember(Value = &quot;NaturalCapital&quot;)] NaturalCapital,&#xa;    [EnumMember(Value = &quot;PollutionAndWaste&quot;)] PollutionAndWaste,&#xa;    [EnumMember(Value = &quot;EnviornmentalOpportunities&quot;)] EnviornmentalOpportunities,&#xa;    [EnumMember(Value = &quot;HumanCapital&quot;)] HumanCapital,&#xa;    [EnumMember(Value = &quot;ProductLiability&quot;)] ProductLiability,&#xa;    [EnumMember(Value = &quot;StakeholderOpposition&quot;)] StakeholderOpposition,&#xa;    [EnumMember(Value = &quot;SocialOpportunities&quot;)] SocialOpportunities,&#xa;    [EnumMember(Value = &quot;Corporate Governance&quot;)] CorporateGovernance,&#xa;    [EnumMember(Value = &quot;CorporateBehavior&quot;)] CorporateBehavior,&#xa;    [EnumMember(Value = &quot;Environment&quot;)] EnvironmentControversy,&#xa;    [EnumMember(Value = &quot;Customer&quot;)] CustomerControversy,&#xa;    [EnumMember(Value = &quot;Labor Rights&quot;)] LaborRightsControversy,&#xa;    [EnumMember(Value = &quot;Human Rights&quot;)] HumanRightsControversy,&#xa;    [EnumMember(Value = &quot;Governance&quot;)] GovernanceControversy,&#xa;    BusinessEthics,&#xa;  }" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="cyWVuHRDN49BQznvrbrS-1">
+          <mxGeometry x="130" y="30" width="480" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
