@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-24T06:57:19.535Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="92E-2Tu1Xya779axZi7W" version="17.1.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-03-24T08:07:36.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="JkI4giU6YO60U_hxNrKK" version="17.1.5" type="github" pages="4">
   <diagram name="CalculationResult" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="1038" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,7 +97,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="b1gJzdANu-E7J6VrjbRQ" name="CalculationResultOverallMSCI">
-    <mxGraphModel dx="1038" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="r901hIFAxSDSb88DwtGd-0" />
         <mxCell id="r901hIFAxSDSb88DwtGd-1" parent="r901hIFAxSDSb88DwtGd-0" />
@@ -311,13 +311,108 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="GBvc2MoHkLdrHCfaQdsB" name="ThemeType">
+  <diagram id="GBvc2MoHkLdrHCfaQdsB" name="Enums">
     <mxGraphModel dx="1038" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="cyWVuHRDN49BQznvrbrS-0" />
         <mxCell id="cyWVuHRDN49BQznvrbrS-1" parent="cyWVuHRDN49BQznvrbrS-0" />
         <mxCell id="cyWVuHRDN49BQznvrbrS-2" value="public enum ThemeType&#xa;  {&#xa;    [EnumMember(Value = &quot;ClimateChange&quot;)] ClimateChange,&#xa;    [EnumMember(Value = &quot;NaturalCapital&quot;)] NaturalCapital,&#xa;    [EnumMember(Value = &quot;PollutionAndWaste&quot;)] PollutionAndWaste,&#xa;    [EnumMember(Value = &quot;EnviornmentalOpportunities&quot;)] EnviornmentalOpportunities,&#xa;    [EnumMember(Value = &quot;HumanCapital&quot;)] HumanCapital,&#xa;    [EnumMember(Value = &quot;ProductLiability&quot;)] ProductLiability,&#xa;    [EnumMember(Value = &quot;StakeholderOpposition&quot;)] StakeholderOpposition,&#xa;    [EnumMember(Value = &quot;SocialOpportunities&quot;)] SocialOpportunities,&#xa;    [EnumMember(Value = &quot;Corporate Governance&quot;)] CorporateGovernance,&#xa;    [EnumMember(Value = &quot;CorporateBehavior&quot;)] CorporateBehavior,&#xa;    [EnumMember(Value = &quot;Environment&quot;)] EnvironmentControversy,&#xa;    [EnumMember(Value = &quot;Customer&quot;)] CustomerControversy,&#xa;    [EnumMember(Value = &quot;Labor Rights&quot;)] LaborRightsControversy,&#xa;    [EnumMember(Value = &quot;Human Rights&quot;)] HumanRightsControversy,&#xa;    [EnumMember(Value = &quot;Governance&quot;)] GovernanceControversy,&#xa;    BusinessEthics,&#xa;  }" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="cyWVuHRDN49BQznvrbrS-1">
-          <mxGeometry x="130" y="30" width="480" height="280" as="geometry" />
+          <mxGeometry x="20" y="30" width="480" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="gA_CV4cUClNQLDTje4xn-0" value="public enum EsgLetterRating / DistributionName&lt;br&gt;&amp;nbsp; {&lt;br&gt;&amp;nbsp; &amp;nbsp; None,&lt;br&gt;&amp;nbsp; &amp;nbsp; A,&lt;br&gt;&amp;nbsp; &amp;nbsp; AA,&lt;br&gt;&amp;nbsp; &amp;nbsp; AAA,&lt;br&gt;&amp;nbsp; &amp;nbsp; B,&lt;br&gt;&amp;nbsp; &amp;nbsp; BB,&lt;br&gt;&amp;nbsp; &amp;nbsp; BBB,&lt;br&gt;&amp;nbsp; &amp;nbsp; CCC&lt;br&gt;&amp;nbsp; }" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="cyWVuHRDN49BQznvrbrS-1">
+          <mxGeometry x="30" y="364" width="360" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SFOr-ranpgVNWGlMiVJ-" name="CalculationResultSectors">
+    <mxGraphModel dx="2272" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="222av1p33nTXn-7Ijsec-0" />
+        <mxCell id="222av1p33nTXn-7Ijsec-1" parent="222av1p33nTXn-7Ijsec-0" />
+        <mxCell id="vlI17knuVNU9VvstGa9g-0" value="CalculationResultSectors" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="222av1p33nTXn-7Ijsec-1">
+          <mxGeometry x="230" y="31" width="300" height="119" as="geometry">
+            <mxRectangle x="80" y="42" width="120" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlI17knuVNU9VvstGa9g-1" value="+ MSCI:&amp;nbsp;CalculationResultSectorsMSCI" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vlI17knuVNU9VvstGa9g-0">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vlI17knuVNU9VvstGa9g-2" value="+ ISS:&amp;nbsp;CalculationResultSectorsISS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vlI17knuVNU9VvstGa9g-0">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vlI17knuVNU9VvstGa9g-3" value="+ TruCost:&amp;nbsp;CalculationResultSectorsISS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="222av1p33nTXn-7Ijsec-1">
+          <mxGeometry x="230" y="116" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vlI17knuVNU9VvstGa9g-4" value="CalculationResultSectorsMSCI" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="222av1p33nTXn-7Ijsec-1">
+          <mxGeometry y="210" width="300" height="119" as="geometry">
+            <mxRectangle x="80" y="42" width="120" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlI17knuVNU9VvstGa9g-5" value="+ GICS :&amp;nbsp;CalculationResultSectorsMSCIGICS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vlI17knuVNU9VvstGa9g-4">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vlI17knuVNU9VvstGa9g-6" value="+ NACE :&amp;nbsp;List&amp;lt;object&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vlI17knuVNU9VvstGa9g-4">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vlI17knuVNU9VvstGa9g-7" value="CalculationResultSectorsMSCI" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="222av1p33nTXn-7Ijsec-1">
+          <mxGeometry x="-20" y="370" width="390" height="119" as="geometry">
+            <mxRectangle x="80" y="42" width="120" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlI17knuVNU9VvstGa9g-8" value="+ Sectors:&amp;nbsp;IDictionary&amp;lt;string, CalculationResulltMSCISector&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vlI17knuVNU9VvstGa9g-7">
+          <mxGeometry y="26" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vlI17knuVNU9VvstGa9g-9" value="+ Industries :&amp;nbsp;CalculationResultSectorsMSCIGICSIndustries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vlI17knuVNU9VvstGa9g-7">
+          <mxGeometry y="52" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vlI17knuVNU9VvstGa9g-10" value="+ SubIndustries :&amp;nbsp;CalculationResultSectorsMSCIGICSSubIndustries" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vlI17knuVNU9VvstGa9g-7">
+          <mxGeometry y="78" width="390" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vlI17knuVNU9VvstGa9g-12" value="CalculationResulltMSCISector" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="222av1p33nTXn-7Ijsec-1">
+          <mxGeometry x="-540" y="520" width="480" height="180" as="geometry">
+            <mxRectangle x="80" y="42" width="120" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlI17knuVNU9VvstGa9g-13" value="+ Score: Decimal?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vlI17knuVNU9VvstGa9g-12">
+          <mxGeometry y="26" width="480" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vlI17knuVNU9VvstGa9g-14" value="+ CalculationResultMSCISectorEnvironmentPillarScores:&amp;nbsp;PillarScore" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vlI17knuVNU9VvstGa9g-12">
+          <mxGeometry y="52" width="480" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vlI17knuVNU9VvstGa9g-15" value="+ CalculationResultMSCISectorSocialPillarScores:&amp;nbsp;PillarScore" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="vlI17knuVNU9VvstGa9g-12">
+          <mxGeometry y="78" width="480" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vlI17knuVNU9VvstGa9g-16" value="+ CalculationResultMSCISectorGovernancePillarScores:&amp;nbsp;PillarScore" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="222av1p33nTXn-7Ijsec-1">
+          <mxGeometry x="-540" y="630" width="480" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="vlI17knuVNU9VvstGa9g-17" value="+ CalculationResultMSCISectorCarbon:&amp;nbsp;CalculationResulltMSCISectorCarbon" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="222av1p33nTXn-7Ijsec-1">
+          <mxGeometry x="-540" y="658" width="480" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4GoBKVEZvlmTYZ26I7-0" value="PillarScore" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="222av1p33nTXn-7Ijsec-1">
+          <mxGeometry x="-725" y="750" width="370" height="90" as="geometry">
+            <mxRectangle x="80" y="42" width="120" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0d4GoBKVEZvlmTYZ26I7-1" value="+ Score: decimal?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0d4GoBKVEZvlmTYZ26I7-0">
+          <mxGeometry y="26" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4GoBKVEZvlmTYZ26I7-2" value="+ EsgThemeScores:&amp;nbsp;Dictionary&amp;lt;ThemeType, Decimal?&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0d4GoBKVEZvlmTYZ26I7-0">
+          <mxGeometry y="52" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4GoBKVEZvlmTYZ26I7-3" value="CalculationResulltMSCISectorCarbon" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=10;align=center;" vertex="1" parent="222av1p33nTXn-7Ijsec-1">
+          <mxGeometry x="-335" y="750" width="370" height="150" as="geometry">
+            <mxRectangle x="80" y="42" width="120" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0d4GoBKVEZvlmTYZ26I7-4" value="+ SectorToEmissionsScope12Percentage: decimal?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0d4GoBKVEZvlmTYZ26I7-3">
+          <mxGeometry y="26" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4GoBKVEZvlmTYZ26I7-6" value="+ SectorRelativeCarbonFootprint: decimal?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="222av1p33nTXn-7Ijsec-1">
+          <mxGeometry x="-335" y="812" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0d4GoBKVEZvlmTYZ26I7-7" value="+ SectorToEmissionsWeightedAverageScope12: decimal?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="222av1p33nTXn-7Ijsec-1">
+          <mxGeometry x="-335" y="839" width="370" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
